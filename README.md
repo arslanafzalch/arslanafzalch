@@ -112,7 +112,7 @@ flowchart TD
 
 ---
 
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="28"> What I build
+## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="28"> LLM & Agent Systems
 
 | | |
 | --- | --- |
@@ -124,17 +124,32 @@ flowchart TD
 
 ---
 
-<details>
-<summary><b>🔬 Before the LLM wave — four years of applied ML</b></summary>
+## <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="28"> Machine Learning & Deep Learning
 
-<br>
+Four years of applied ML before agents were the interesting problem. Time series,
+biosignals, audio and vision — mostly on messy real-world sensor data, which is still
+where my instincts about evaluation come from.
 
-- **Network quality forecasting** — 250+ cell parameters across mobile towers, joined with weather data to model propagation effects like atmospheric ducting, predicting which RF parameters to change before quality dropped
-- **Wearables** — gesture classification from smartwatch IMU streams, heart screening from ECG and PPG signals
-- **Audio screening** — cough-based TB and COVID-19 detection, owning data engineering through to model training
-- **Vision** — CNN and YOLO for wildlife monitoring, Vision Transformer for geospatial classification
+<div align="center">
 
-</details>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv,py,anaconda&theme=dark" />
+
+</div>
+
+| | Project | What it involved |
+| --- | --- | --- |
+| 📡 | **Network Quality Forecasting** | Telemetry across **250+ cell-level parameters** on mobile towers, joined with weather data at matching time and geographic resolution to model propagation effects including **atmospheric ducting**. **ARIMA + LSTM** forecasting of KPI degradation, with recommended RF parameter changes to hold quality through predicted conditions. |
+| ⌚ | **Gesture Recognition (IMU)** | Gyroscope and accelerometer streams from a smartwatch, per-user baseline calibration to derive displacement features, and an in-house **deep learning classifier over six gesture classes**. |
+| 🫀 | **Heart Health Screening** | Screening models on wearable **ECG and PPG** signals, including the full signal-processing and feature-extraction pipeline. |
+| 🎤 | **Cough-Based TB & COVID-19 Detection** | Audio screening end to end — data engineering, preparation, annotation workflows and model training, with **knowledge distillation** for faster inference. |
+| 🐾 | **Wildlife Monitoring** | Computer vision with **CNN and YOLO** architectures for species detection in field imagery. |
+| 🗺️ | **Geospatial Classification** | **Vision Transformer** for real-world image classification inside a geospatial analytics portal (M.S. thesis). |
+
+<div align="center">
+
+`time series` · `signal processing` · `audio ML` · `computer vision` · `multimodal pipelines` · `LoRA / QLoRA` · `RLHF` · `knowledge distillation`
+
+</div>
 
 ---
 
