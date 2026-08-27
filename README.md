@@ -1,62 +1,90 @@
 <!--
   SETUP
-  1. Create a PUBLIC repo named exactly your GitHub username.
+  1. Create a PUBLIC repo named EXACTLY your GitHub username.
   2. Put this file at the root as README.md.
-  3. It will render at the top of github.com/<your-username>.
-
-  Replace every YOUR-HANDLE below with your GitHub username.
+  3. It renders at the top of github.com/<your-username>.
 -->
 
 <div align="center">
 
-# Arslan Afzal
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F3B63,100:2E86C1&height=180&section=header&text=Arslan%20Afzal&fontSize=52&fontColor=ffffff&fontAlignY=35&desc=Applied%20AI%20Engineer&descSize=20&descAlignY=57" width="100%" />
 
-**Applied AI Engineer · LLM agents, RAG and production AI systems**
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=2E86C1&center=true&vCenter=true&width=620&lines=LLM+agents+that+run+in+production;RAG+over+permission-scoped+enterprise+data;Multi-agent+orchestration+with+LangGraph;Evaluation+%3E+trial+and+error" alt="Typing SVG" />
 
-Lahore, Pakistan
+<br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-arslan-afzal-33396613a/)
-[![Email](https://img.shields.io/badge/Email-Get_in_touch-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:arslanafzalch515@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-arslan-afzal-33396613a/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arslanafzalch515@gmail.com)
+![Location](https://img.shields.io/badge/Lahore,_PK-1F3B63?style=for-the-badge&logo=googlemaps&logoColor=white)
+
+</div>
+
+<div align="center">
+
+`Technical Lead` · `6+ yrs engineering` · `4+ yrs LLM systems` · `15+ agents in production`
 
 </div>
 
 ---
 
-I build LLM systems that run in production, for enterprise customers who care about
-where their data lives and whether the agent can be audited afterwards.
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="28"> About
 
-Right now I'm technical lead on an enterprise AI platform for a global infrastructure
-investment firm. One conversational entry point routes staff requests across 15+
-specialised agents working over confidential deal, legal and financial data. Most of my
-time goes into the parts that don't demo well: what happens when a tool call fails
-halfway through a plan, how retrieval respects document-level permissions, and how you
-tell whether last week's prompt change made the agent worse.
+- Technical lead on an enterprise AI platform for a **global infrastructure investment firm**
+- One entry point routing staff requests across **15+ specialised agents** over confidential deal, legal and financial data
+- I spend my time on what doesn't demo well: **failed tool calls mid-plan**, permission-scoped retrieval, and knowing whether last week's prompt change made things worse
+- Earlier work: **+40%** ticket-assignment accuracy, **−60%** manual operational processes
 
-## What I work on
+---
 
-**Agent orchestration.** A LangGraph supervisor routing to department-scoped
-sub-agents, with Postgres checkpointing so long runs survive interruption, parallel
-fan-out where the plan allows it, and resume after mid-flow clarification without
-re-querying agents that already answered.
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"> Tech Stack
 
-**Retrieval that respects permissions.** Hybrid BM25 and vector search across
-department indices, with metadata filtering so every retrieval stays inside the user's
-entitlements. One detail I'm oddly fond of: a wildcard probe fired before the real
-query, so the agent can tell "you don't have access" apart from "nothing matched."
-Those two failures look identical to a user and mean completely different things.
+<div align="center">
 
-**Agent memory.** Short-term working memory on a hybrid time-and-turn window,
-long-term memory on pgvector with a distance gate that stops cold-start false recalls.
+**Core**
 
-**Tools and extensibility.** An MCP connector platform where users attach their own
-tool servers via per-user OAuth, so agents work against each person's actual workspace
-rather than a fixed tool list.
+<img src="https://skillicons.dev/icons?i=python,fastapi,django,postgres,redis,docker,azure,aws&theme=dark" />
 
-**Evaluation.** Tracing every plan step, tool call and retrieval, then running curated
-regression sets against tool-selection accuracy, groundedness, failure rate and p95
-latency. Trial-and-error prompt tuning doesn't survive contact with production.
+**AI & Agents**
 
-## How the orchestrator fits together
+[![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)](#)
+[![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)](#)
+[![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=anthropic&logoColor=white)](#)
+[![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)](#)
+[![OpenAI](https://img.shields.io/badge/Azure_OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)](#)
+[![Cohere](https://img.shields.io/badge/Cohere-39594D?style=for-the-badge&logo=cohere&logoColor=white)](#)
+[![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](#)
+[![Langfuse](https://img.shields.io/badge/Langfuse-0A0A0A?style=for-the-badge&logo=tracing&logoColor=white)](#)
+
+**ML & Data**
+
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv,anaconda&theme=dark" />
+
+**Frontend & Tooling**
+
+<img src="https://skillicons.dev/icons?i=react,redux,ts,tailwind,vite,git,github,linux,nginx,postman&theme=dark" />
+
+</div>
+
+<details>
+<summary align="center"><b>📋 The full breakdown</b></summary>
+
+<br>
+
+| Area | Tools |
+| --- | --- |
+| **Agents** | LangGraph, LangChain, AutoGen, CrewAI, ReAct, Plan-and-Execute, MCP, A2A, tool calling, agent memory, durable checkpointing, human-in-the-loop |
+| **Retrieval** | Hybrid BM25 + HNSW, query rewriting, relevance grading, groundedness checks, reranking, permission filtering, Azure AI Search, pgvector, FAISS, LlamaIndex |
+| **Models** | Anthropic Claude, OpenAI / Azure OpenAI, Cohere, xAI, Hugging Face, LiteLLM, structured outputs, LoRA / QLoRA / PEFT, RLHF |
+| **Evaluation** | Langfuse, regression and golden datasets, groundedness checks, retrieval precision and recall, tool-selection accuracy, p50/p95 latency, token and cost budgeting |
+| **Backend** | Python, FastAPI, Django / DRF, async, SQLAlchemy 2, SSE streaming, PostgreSQL, Redis, Alembic, Docker, CI/CD |
+| **Cloud** | Microsoft Foundry (Foundry SDK, project-scoped deployments, region-pinned for data residency), Azure App Service, AI Search, Document Intelligence, Blob Storage, Entra ID, AWS |
+| **Classical ML** | PyTorch, TensorFlow, CNN, YOLO, Vision Transformer, ARIMA, LSTM, signal processing |
+
+</details>
+
+---
+
+## <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="28"> How the orchestrator fits together
 
 ```mermaid
 flowchart TD
@@ -82,51 +110,40 @@ flowchart TD
     S -.recall.-> M[(pgvector<br/>long-term memory)]
 ```
 
-## Stack
+---
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangGraph_%2F_LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL_%2B_pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="28"> What I build
+
+| | |
+| --- | --- |
+| 🧭 **Orchestration** | LangGraph supervisor routing to department-scoped sub-agents. Postgres checkpointing so long runs survive interruption, parallel fan-out where the plan allows, resume after mid-flow clarification without re-querying agents that already answered. |
+| 🔍 **Retrieval** | Hybrid BM25 + vector across department indices, metadata filtered so retrieval stays inside the user's entitlements. A wildcard probe fires first, so the agent tells *"you don't have access"* apart from *"nothing matched"* — identical to a user, completely different problems. |
+| 🧠 **Memory** | Short-term on a hybrid time-and-turn window. Long-term on pgvector with a distance gate that stops cold-start false recalls. |
+| 🔌 **Tooling** | MCP connector platform where users attach their own tool servers via per-user OAuth, so agents work against each person's real workspace instead of a fixed tool list. |
+| 📊 **Evaluation** | Tracing every plan step, tool call and retrieval, then running regression sets against tool-selection accuracy, groundedness, failure rate and p95 latency. |
+
+---
 
 <details>
-<summary><b>The fuller list</b></summary>
+<summary><b>🔬 Before the LLM wave — four years of applied ML</b></summary>
 
 <br>
 
-| Area | Tools |
-| --- | --- |
-| **Agents** | LangGraph, LangChain, AutoGen, CrewAI, ReAct, Plan-and-Execute, MCP, A2A, tool calling, agent memory, durable checkpointing |
-| **Retrieval** | Hybrid BM25 + HNSW, query rewriting, relevance grading, groundedness checks, reranking, permission filtering, Azure AI Search, pgvector, FAISS, LlamaIndex |
-| **Models** | Anthropic Claude, OpenAI / Azure OpenAI, Cohere, xAI, Hugging Face, LiteLLM, structured outputs, LoRA / QLoRA / PEFT, RLHF |
-| **Evaluation** | Langfuse, regression and golden datasets, groundedness checks, retrieval precision and recall, tool-selection accuracy, p50/p95 latency, token and cost budgeting |
-| **Backend** | Python, FastAPI, Django / DRF, async, SQLAlchemy 2, SSE streaming, PostgreSQL, Redis, Alembic, Docker, CI/CD |
-| **Cloud** | Microsoft Foundry (Foundry SDK, project-scoped deployments, region-pinned for data residency), Azure App Service, AI Search, Document Intelligence, Blob Storage, Entra ID, AWS |
-| **ML** | PyTorch, TensorFlow, CNN, YOLO, Vision Transformer, ARIMA, LSTM, signal processing |
+- **Network quality forecasting** — 250+ cell parameters across mobile towers, joined with weather data to model propagation effects like atmospheric ducting, predicting which RF parameters to change before quality dropped
+- **Wearables** — gesture classification from smartwatch IMU streams, heart screening from ECG and PPG signals
+- **Audio screening** — cough-based TB and COVID-19 detection, owning data engineering through to model training
+- **Vision** — CNN and YOLO for wildlife monitoring, Vision Transformer for geospatial classification
 
 </details>
 
-## Before the LLM wave
-
-Four years of applied ML before agents were the interesting problem, and it still shapes
-how I think about evaluation:
-
-- Forecasting network quality across 250+ cell parameters on mobile towers, joined with
-  weather data to model propagation effects like atmospheric ducting, then predicting
-  which RF parameters to change before quality dropped
-- Gesture classification from smartwatch IMU streams, and heart screening from
-  wearable ECG and PPG signals
-- Cough-based TB and COVID-19 screening, owning the data engineering through to training
-
-## Elsewhere
-
-- [LinkedIn](https://www.linkedin.com/in/muhammad-arslan-afzal-33396613a/)
-- [arslanafzalch515@gmail.com](mailto:arslanafzalch515@gmail.com)
+---
 
 <div align="center">
-<sub>Open to conversations about agent architecture, retrieval and production LLM systems.</sub>
+
+### Open to conversations about agent architecture, retrieval and production LLM systems.
+
+[![LinkedIn](https://img.shields.io/badge/Let's_talk-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-arslan-afzal-33396613a/)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E86C1,100:1F3B63&height=120&section=footer" width="100%" />
+
 </div>
